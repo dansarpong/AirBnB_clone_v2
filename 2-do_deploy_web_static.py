@@ -24,6 +24,7 @@ def do_pack():
     except Exception:
         return None
 
+
 def do_deploy(archive_path):
     """
     deploys the static files to the host servers
